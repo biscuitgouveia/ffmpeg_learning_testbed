@@ -1,0 +1,63 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "fe66b083ab7353aea3081e8ae91b51e5aaab6da2b37dd507e11d31ec4a6da21f"
+    },
+    {
+      "guid" : "fe66b083ab7353aea3081e8ae91b51e540197248b77f52520e163e6049828266"
+    },
+    {
+      "guid" : "fe66b083ab7353aea3081e8ae91b51e5eab11a4217f25329ee65aa13e2c68fc5"
+    }
+  ],
+  "containerPath" : "/Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/FFmpegTestbed.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/ethangouveia/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/ethangouveia/Library/Developer/Xcode/DerivedData/FFmpegTestbed-ajrgycvgslglcfepcniyesrhtcnh/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/ethangouveia/Library/Developer/Xcode/DerivedData/FFmpegTestbed-ajrgycvgslglcfepcniyesrhtcnh/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

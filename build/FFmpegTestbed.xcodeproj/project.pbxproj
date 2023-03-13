@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0826CE26FD2D43258EFA5C4F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B0428C30E9F941CD87FC15BB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1EB1EEB081FBCAD61F9D6D79 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				9A37B815769244D6B32E7483 /* PBXTargetDependency */,
+				D0DA3781BDAE441C80DCC7B2 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		152FBEEAC3EE4F39BF06BAB7 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 02C0FDCD310B49ACAA032A70 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				ED2DF8AD2F99A0E121CBFDAA /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5F4561D6318D4154ACF63FC1 /* /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1D832B38279F4050B89AB00A /* /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/CMakeLists.txt */; };
+		62CC5CC2E3B342C5BC8189E0 /* /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/CMakeFiles/FFmpegTestbed.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = A59B1351622B44E0BABA85CF /* /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/CMakeFiles/FFmpegTestbed.dir/Info.plist */; };
+		7EE0B37FF33B413D849AE7D1 /* /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/src/testbed.c */ = {isa = PBXBuildFile; fileRef = 2AE497FD444D4E27A797F6C5 /* /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/src/testbed.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0B7E3332E9EE4700B986F709 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		4827AF24741945C08A5FA752 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		97B6A043C0664E80B638E7CE /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		99A61665D411442AAB4BF6FA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		5E293263C67D4C2F805E81BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC1959DF1414EBD92C9D2DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BDDB789CF2B4BDAA4A9427F;
+			remoteInfo = FFmpegTestbed;
+		};
+		89CAA832762D4336A3275707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC1959DF1414EBD92C9D2DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152FBEEAC3EE4F39BF06BAB7;
+			remoteInfo = ZERO_CHECK;
+		};
+		E6FB0D77B2D242639F469539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC1959DF1414EBD92C9D2DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152FBEEAC3EE4F39BF06BAB7;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		098FE49818E64E8791409AAA /* FFmpegTestbed */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = FFmpegTestbed; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D832B38279F4050B89AB00A /* /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2AE497FD444D4E27A797F6C5 /* /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/src/testbed.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = testbed.c; path = src/testbed.c; sourceTree = SOURCE_ROOT; };
+		56EB714855AD47E9915A943E /* /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A59B1351622B44E0BABA85CF /* /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/CMakeFiles/FFmpegTestbed.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/CMakeFiles/FFmpegTestbed.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BA628AED2174ABEA3D15A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37574354B3EE469EB10671D7 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C0815EBC67F8479D92FE5EF1 /* CMake Rules */,
+				56EB714855AD47E9915A943E /* /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6341DB9974C84E05AED6B9D9 /* FFmpegTestbed */ = {
+			isa = PBXGroup;
+			children = (
+				F4B4419A387C4873820B18D5 /* Source Files */,
+				7C322774D21C463696B2BC1C /* Resources */,
+				1D832B38279F4050B89AB00A /* /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/CMakeLists.txt */,
+			);
+			name = FFmpegTestbed;
+			sourceTree = "<group>";
+		};
+		7C322774D21C463696B2BC1C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A59B1351622B44E0BABA85CF /* /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/CMakeFiles/FFmpegTestbed.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AE7129ED0AEA4242B19043FD = {
+			isa = PBXGroup;
+			children = (
+				6341DB9974C84E05AED6B9D9 /* FFmpegTestbed */,
+				37574354B3EE469EB10671D7 /* ALL_BUILD */,
+				D2C93CCED5AF474599B0A597 /* Products */,
+				D5EFD13E41F940CABCCB908C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0815EBC67F8479D92FE5EF1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D2C93CCED5AF474599B0A597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				098FE49818E64E8791409AAA /* FFmpegTestbed */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5EFD13E41F940CABCCB908C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4B4419A387C4873820B18D5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AE497FD444D4E27A797F6C5 /* /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/src/testbed.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BDDB789CF2B4BDAA4A9427F /* FFmpegTestbed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BBDE5E874A24E8B97503CEF /* Build configuration list for PBXNativeTarget "FFmpegTestbed" */;
+			buildPhases = (
+				B5E1464CB30D4065B2E8D79C /* Sources */,
+				0BA628AED2174ABEA3D15A60 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73658CDE7B014DFF9D6BCD5D /* PBXTargetDependency */,
+			);
+			name = FFmpegTestbed;
+			productName = FFmpegTestbed;
+			productReference = 098FE49818E64E8791409AAA /* FFmpegTestbed */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AC1959DF1414EBD92C9D2DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 08F1E82EC95A4C449C86C205 /* Build configuration list for PBXProject "FFmpegTestbed" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4827AF24741945C08A5FA752 /* Debug */,
+				99A61665D411442AAB4BF6FA /* Release */,
+				0B7E3332E9EE4700B986F709 /* MinSizeRel */,
+				97B6A043C0664E80B638E7CE /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = AE7129ED0AEA4242B19043FD;
+			projectDirPath = /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed;
+			projectRoot = "";
+			targets = (
+				0826CE26FD2D43258EFA5C4F /* ALL_BUILD */,
+				5BDDB789CF2B4BDAA4A9427F /* FFmpegTestbed */,
+				152FBEEAC3EE4F39BF06BAB7 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EB1EEB081FBCAD61F9D6D79 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		ED2DF8AD2F99A0E121CBFDAA /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build
+  make -f /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build
+  make -f /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build
+  make -f /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build
+  make -f /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5E1464CB30D4065B2E8D79C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE0B37FF33B413D849AE7D1 /* /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/src/testbed.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73658CDE7B014DFF9D6BCD5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152FBEEAC3EE4F39BF06BAB7 /* ZERO_CHECK */;
+			targetProxy = E6FB0D77B2D242639F469539 /* PBXContainerItemProxy */;
+		};
+		9A37B815769244D6B32E7483 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BDDB789CF2B4BDAA4A9427F /* FFmpegTestbed */;
+			targetProxy = 5E293263C67D4C2F805E81BF /* PBXContainerItemProxy */;
+		};
+		D0DA3781BDAE441C80DCC7B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152FBEEAC3EE4F39BF06BAB7 /* ZERO_CHECK */;
+			targetProxy = 89CAA832762D4336A3275707 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		007A23CBCB4C4B28BCE8D766 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		1523D02DAADD42E6B8EDA535 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/CMakeFiles/FFmpegTestbed.dir/Info.plist;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavcodec.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavformat.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavfilter.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavdevice.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavutil.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libswresample.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libswscale.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FFmpegTestbed;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/ffmpeg/5.1.2_5/include,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/build/FFmpegTestbed.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3C688A0469814F3BAEE09274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5D54BF1CA1C24BC5883426C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6C378FC939B64D06BE86C3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/build;
+			};
+			name = Debug;
+		};
+		6CA99FE314A54DE39019BEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		804DA89C8D5B48CBAE02D89D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8A5B24E8DF384BAF97870BC3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/CMakeFiles/FFmpegTestbed.dir/Info.plist;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = ("       -DNDEBUG ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavcodec.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavformat.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavfilter.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavdevice.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavutil.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libswresample.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libswscale.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FFmpegTestbed;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/ffmpeg/5.1.2_5/include,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/build/FFmpegTestbed.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8CAD63D76DC245E091064E0C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		998D2BBA4C9044B081682A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/build;
+			};
+			name = Release;
+		};
+		9CD9A981243C46DE8AA9DBEA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/build;
+			};
+			name = MinSizeRel;
+		};
+		A0084321D15647F1B48B96A0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A5E9DADDE8DD4A92B4210B0A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D69BF4016C6042BD9F1EE67F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/CMakeFiles/FFmpegTestbed.dir/Info.plist;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = ("   ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavcodec.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavformat.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavfilter.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavdevice.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavutil.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libswresample.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libswscale.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FFmpegTestbed;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/ffmpeg/5.1.2_5/include,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/build/FFmpegTestbed.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DF3AB73CFF524F98B9CCED9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/CMakeFiles/FFmpegTestbed.dir/Info.plist;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavcodec.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavformat.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavfilter.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavdevice.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libavutil.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libswresample.dylib,/usr/local/Cellar/ffmpeg/5.1.2_5/lib/libswscale.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FFmpegTestbed;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/ffmpeg/5.1.2_5/include,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/build/FFmpegTestbed.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F1FADB76F23441B299CF53EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C0FDCD310B49ACAA032A70 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D54BF1CA1C24BC5883426C3 /* Debug */,
+				3C688A0469814F3BAEE09274 /* Release */,
+				804DA89C8D5B48CBAE02D89D /* MinSizeRel */,
+				8CAD63D76DC245E091064E0C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		08F1E82EC95A4C449C86C205 /* Build configuration list for PBXProject "FFmpegTestbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C378FC939B64D06BE86C3B6 /* Debug */,
+				998D2BBA4C9044B081682A79 /* Release */,
+				9CD9A981243C46DE8AA9DBEA /* MinSizeRel */,
+				007A23CBCB4C4B28BCE8D766 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9BBDE5E874A24E8B97503CEF /* Build configuration list for PBXNativeTarget "FFmpegTestbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69BF4016C6042BD9F1EE67F /* Debug */,
+				DF3AB73CFF524F98B9CCED9C /* Release */,
+				1523D02DAADD42E6B8EDA535 /* MinSizeRel */,
+				8A5B24E8DF384BAF97870BC3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B0428C30E9F941CD87FC15BB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FADB76F23441B299CF53EC /* Debug */,
+				6CA99FE314A54DE39019BEB7 /* Release */,
+				A0084321D15647F1B48B96A0 /* MinSizeRel */,
+				A5E9DADDE8DD4A92B4210B0A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AC1959DF1414EBD92C9D2DC /* Project object */;
+}
