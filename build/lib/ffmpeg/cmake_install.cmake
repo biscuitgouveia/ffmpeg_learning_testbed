@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/lib/FFmpeg
+# Install script for directory: /Users/ethangouveia/Documents/git/repos/ffmpeg_learning_testbed/lib/FFmpeg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,5 +37,5 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-set(CMAKE_BINARY_DIR "/Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build")
+set(CMAKE_BINARY_DIR "/Users/ethangouveia/Documents/git/repos/ffmpeg_learning_testbed/build")
 

@@ -5,10 +5,10 @@ empty:=
 space:= $(empty) $(empty)
 spaceplus:= $(empty)\ $(empty)
 
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/lib/FFmpeg/CMakeLists.txt))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/ethangouveia/Documents/git/repos/ffmpeg_learning_testbed/lib/FFmpeg/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.25.2/share/cmake/Modules/FindPackageHandleStandardArgs.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.25.2/share/cmake/Modules/FindPackageMessage.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.25.2/share/cmake/Modules/FindPkgConfig.cmake))
 
-/Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/CMakeFiles/cmake.check_cache: $(TARGETS)
-	/usr/local/Cellar/cmake/3.25.2/bin/cmake -H/Users/ethangouveia/Documents/git/repos/ffmpeg_testbed -B/Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build
+/Users/ethangouveia/Documents/git/repos/ffmpeg_learning_testbed/build/CMakeFiles/cmake.check_cache: $(TARGETS)
+	/usr/local/Cellar/cmake/3.25.2/bin/cmake -H/Users/ethangouveia/Documents/git/repos/ffmpeg_learning_testbed -B/Users/ethangouveia/Documents/git/repos/ffmpeg_learning_testbed/build

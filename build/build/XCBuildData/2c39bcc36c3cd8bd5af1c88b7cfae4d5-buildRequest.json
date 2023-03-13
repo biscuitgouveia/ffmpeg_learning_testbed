@@ -7,10 +7,10 @@
   "buildCommand" : "build",
   "configuredTargets" : [
     {
-      "guid" : "fe66b083ab7353aea3081e8ae91b51e5eab11a4217f25329ee65aa13e2c68fc5"
+      "guid" : "fe66b083ab7353aea3081e8ae91b51e518144c7ac3a15dec2c29795b9050a6cb"
     }
   ],
-  "containerPath" : "/Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/FFmpegTestbed.xcodeproj",
+  "containerPath" : "/Users/ethangouveia/Documents/git/repos/ffmpeg_learning_testbed/build/FFmpegTestbed.xcodeproj",
   "continueBuildingAfterErrors" : true,
   "enableIndexBuildArena" : false,
   "hideShellScriptEnvironment" : false,
@@ -32,9 +32,9 @@
       "buildIntermediatesPath" : "",
       "buildProductsPath" : "",
       "derivedDataPath" : "/Users/ethangouveia/Library/Developer/Xcode/DerivedData",
-      "indexDataStoreFolderPath" : "/Users/ethangouveia/Library/Developer/Xcode/DerivedData/FFmpegTestbed-ajrgycvgslglcfepcniyesrhtcnh/Index.noindex/DataStore",
+      "indexDataStoreFolderPath" : "/Users/ethangouveia/Library/Developer/Xcode/DerivedData/FFmpegTestbed-gdxvbzaxxflimkecnbocijxgkpkf/Index.noindex/DataStore",
       "indexEnableDataStore" : true,
-      "indexPCHPath" : "/Users/ethangouveia/Library/Developer/Xcode/DerivedData/FFmpegTestbed-ajrgycvgslglcfepcniyesrhtcnh/Index.noindex/PrecompiledHeaders",
+      "indexPCHPath" : "/Users/ethangouveia/Library/Developer/Xcode/DerivedData/FFmpegTestbed-gdxvbzaxxflimkecnbocijxgkpkf/Index.noindex/PrecompiledHeaders",
       "pchPath" : ""
     },
     "configurationName" : "Debug",
@@ -46,10 +46,11 @@
       }
     }
   },
+  "qos" : "default",
   "schemeCommand" : "launch",
   "schemeCommand2" : "launch",
   "showNonLoggedProgress" : true,
-  "useDryRun" : false,
+  "useDryRun" : true,
   "useImplicitDependencies" : true,
   "useLegacyBuildLocations" : false,
   "useParallelTargets" : true

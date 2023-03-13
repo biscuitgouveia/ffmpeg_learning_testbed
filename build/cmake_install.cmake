@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ethangouveia/Documents/git/repos/ffmpeg_testbed
+# Install script for directory: /Users/ethangouveia/Documents/git/repos/ffmpeg_learning_testbed
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,11 +37,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-set(CMAKE_BINARY_DIR "/Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build")
+set(CMAKE_BINARY_DIR "/Users/ethangouveia/Documents/git/repos/ffmpeg_learning_testbed/build")
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/lib/FFmpeg/cmake_install.cmake")
+  include("/Users/ethangouveia/Documents/git/repos/ffmpeg_learning_testbed/build/lib/FFmpeg/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/ethangouveia/Documents/git/repos/ffmpeg_testbed/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/ethangouveia/Documents/git/repos/ffmpeg_learning_testbed/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
